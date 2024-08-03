@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(../fonts/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url(../fonts/ClashDisplay-Regular.otf);
+}
+
+/* Start of the header */
+
+.top-header {
+    display: grid;
+    height: 70px;
+    margin: 0 1.875%;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header form {
+    grid-column: 1 / 2;
+}
+
+.header-search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 16px;
+}
+
+/* .top-header input {
+    border: none;
+    outline: none;
+} */
+
+.top-header h1 {
+    grid-column: 2 / 3;
+    margin: 20px;
+    font-family: "ClashDisplay";
+    font-size: 24px;
+    color: rgba(34, 32, 46, 1);
+}
+
+.top-header-links {
+    grid-column: 3 / 4
+}
+
+.cart-link {
+    padding-right: 16px;
+}
+
+.divider {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 1.875%;
+}
+
+.header-menu {
+    display: grid;
+    margin: 20px 0;
+    grid-template-columns: repeat(auto-fit, minmax(44px, max-content));
+    column-gap: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu-link {
+    text-decoration: none;
+    font-family: "Satoshi";
+    font-size: 16px;
+    color: rgba(114, 110, 141, 1);
+}
+
+/* Start of "The furniture brand for the future" block */
+
+.introduction {
+    display: grid;
+    padding: 4.17% 5.56%;
+    grid-template-columns: 1fr 40.625%;
+}
+
+.intro-text {
+    grid-column: 1 / 2;
+    background-color: rgba(42, 37, 75, 1);
+}
+
+.intro-text h2 {
+    font-family: "ClashDisplay";
+    font-size: 32px;
+    line-height: 44.8px;
+    color: rgba(255, 255, 255, 1);
+    padding: 7.9% 24.6% 0 7.9%;
+    margin: 0;
+}
+
+.intro-text a {
+    display: inline-block;
+    font-family: "Satoshi";
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(249, 249, 249, 0.15);
+    padding: 16px 32px;
+    margin: 41px 0 0 7.9%;
+}
+
+.intro-text a:hover {
+    background-color: rgba(249, 249, 249, 0.3);
+}
+
+.intro-text p {
+    font-family: "Satoshi";
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+    margin: 196px 12.9% 7.9% 7.9%;
+}
+
+.introduction img {
+    grid-column: 2 / 3;
+    width: 100%;
+}
+
+/* Start of the "What makes our brand different" block */
+
+.features {
+    padding-bottom: 86px;
+}
+
+.features, 
+.listing {
+    color: rgba(42, 37, 75, 1);
+}
+
+.features h3 {
+    font-family: "ClashDisplay";
+    font-size: 24px;
+    line-height: 33.6px;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 0 51px 0;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, max-content));
+    column-gap: 4vw;
+    padding-left: 5.97vw;
+    padding-right: 7.64vw;
+}
+
+.feature img {
+    height: 24px;
+    width: 24px;
+}
+
+.feature h4{
+    font-family: "ClashDisplay";
+    font-size: 20px;
+    line-height: 28px;
+    margin: 16px 0 8px 0;
+}
+
+.feature p {
+    font-family: "Satoshi";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Start of the "New ceramics" and "Our popular products" blocks */
+
+.new {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    padding: 80px 5.56vw 56px 5.56vw;
+}
+
+.new h2,
+.new a {
+    grid-column: 1 / 5;
+}
+
+.popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 64px 5.56vw 48px 5.56vw;
+}
+
+.popular h2,
+.popular a {
+    grid-column: 1 / 4;
+}
+
+.listing h2 {
+    justify-self: start;
+    font-family: "ClashDisplay";
+    font-size: 32px;
+    line-height: 39.36px;
+    margin: 0 0 33px 0;
+}
+
+.product-card {
+    width: 21.18vw;
+}
+
+.large {
+    width: 43.75vw;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-name {
+    font-family: "ClashDisplay";
+    font-size: 20px;
+    line-height: 28px;
+    margin: 24px 0 8px 0;
+}
+
+.price {
+    font-family: "Satoshi";
+    font-size: 18;
+    line-height: 27px;
+    margin: 0;
+}
+
+.listing a {
+    display: inline-block;
+    justify-self: center;
+    font-family: "Satoshi";
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    /* background-color: aquamarine; */
+    background-color: rgba(249, 249, 249, 1);
+    padding: 16px 32px;
+    margin-top: 35px;
+}
