@@ -8,7 +8,7 @@
     src: url(../fonts/ClashDisplay-Regular.otf);
 }
 
-/* Start of the header */
+/* The header */
 
 .top-header {
     display: grid;
@@ -72,7 +72,7 @@
     color: rgba(114, 110, 141, 1);
 }
 
-/* Start of "The furniture brand for the future" block */
+/* "The furniture brand for the future" section */
 
 .introduction {
     display: grid;
@@ -123,7 +123,7 @@
     width: 100%;
 }
 
-/* Start of the "What makes our brand different" block */
+/* "What makes our brand different" section */
 
 .features {
     padding-bottom: 86px;
@@ -169,7 +169,7 @@
     line-height: 24px;
 }
 
-/* Start of the "New ceramics" and "Our popular products" blocks */
+/* "New ceramics" and "Our popular products" section */
 
 .new {
     display: grid;
@@ -239,4 +239,17 @@
     background-color: rgba(249, 249, 249, 1);
     padding: 16px 32px;
     margin-top: 35px;
+}
+
+/* Email sign-up section */
+
+.sign-up {
+    /* background-color: rgba(249, 249, 249, 1); */
+    background-color: brown;
+    padding: 52px 5.8% 65px 5.8%;
+}
+
+.sign-up-container {
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
 }
