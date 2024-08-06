@@ -253,3 +253,15 @@
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
 }
+
+.sign-up h2 {
+    font-family: "ClashDisplay";
+    font-size: 36px;
+    line-height: 50.4px;
+}
+
+.sign-up p {
+    font-family: "Satoshi";
+    font-size: 16px;
+    line-height: 24px;
+}
