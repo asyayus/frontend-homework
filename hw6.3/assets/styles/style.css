@@ -270,8 +270,8 @@
 
 .description {
     display: grid;
-    padding: 4.17% 5.56%;
-    grid-template-columns: 1fr 40.625%;
+    /* padding: 4.17% 5.56%; */
+    /* grid-template-columns: 1fr 40.625%; */
 }
 
 .descript-text {
