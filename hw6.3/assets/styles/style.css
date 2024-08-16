@@ -8,6 +8,9 @@
     src: url(../fonts/ClashDisplay-Regular.otf);
 }
 
+h1, h2, h3, h4, p, a {
+    font-weight: 400;
+}
 /* The header */
 
 .top-header {
@@ -241,11 +244,14 @@
     margin-top: 35px;
 }
 
+.listing a:hover {
+    opacity: 0.6;
+}
+
 /* Email sign-up section */
 
 .sign-up {
-    /* background-color: rgba(249, 249, 249, 1); */
-    background-color: brown;
+    background-color: rgba(249, 249, 249, 1);
     padding: 52px 5.8% 65px 5.8%;
 }
 
@@ -258,15 +264,45 @@
     font-family: "ClashDisplay";
     font-size: 36px;
     line-height: 50.4px;
+    padding: 68px 27.57% 0 27.57%;
+    margin: 0 0 16px 0;
 }
 
 .sign-up p {
     font-family: "Satoshi";
     font-size: 16px;
     line-height: 24px;
+    padding: 0 31.5% 0 31.5%;
+    margin: 16px 0 72px 0;
+}
+
+.sign-up input {
+    margin-bottom: 54px;
+}
+
+.sign-up input[type=text] {
+    width: 354px;
+    height: 56px;
+    background-color: rgba(249, 249, 249, 1);
+    border: 0;
+    padding: 0 32px;
+    font-family: "Satoshi";
+}
+
+.sign-up input[type=submit] {
+    width: 118px;
+    height: 56px;
+    background: rgba(42, 37, 75, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    font-family: "Satoshi";
+}
+.sign-up input[type=submit]:hover {
+    opacity: 0.8;
 }
 
 /* "From a studio in London" section */
+/* TO CHANGE */
 
 .description {
     display: grid;
@@ -314,3 +350,4 @@
     grid-column: 2 / 3;
     width: 100%;
 }
+/*TO CHANGE */
