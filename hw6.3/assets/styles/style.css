@@ -289,6 +289,10 @@ h1, h2, h3, h4, p, a {
     font-family: "Satoshi";
 }
 
+.sign-up input[type=text]::placeholder {
+    color: rgba(208, 207, 213, 1);
+}
+
 .sign-up input[type=submit] {
     width: 118px;
     height: 56px;
