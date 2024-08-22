@@ -306,7 +306,6 @@ h1, h2, h3, h4, p, a {
 }
 
 /* "From a studio in London" section */
-/* TO CHANGE */
 
 .description {
     display: grid;
@@ -355,4 +354,17 @@ h1, h2, h3, h4, p, a {
     grid-column: 2 / 3;
     width: 100%;
 }
-/*TO CHANGE */
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 312px 68px;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
