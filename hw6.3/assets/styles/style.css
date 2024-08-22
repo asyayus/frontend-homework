@@ -310,22 +310,25 @@ h1, h2, h3, h4, p, a {
 
 .description {
     display: grid;
-    /* padding: 4.17% 5.56%; */
-    /* grid-template-columns: 1fr 40.625%; */
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .descript-text {
     grid-column: 1 / 2;
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(42, 37, 75, 1);
 }
 
 .descript-text h3 {
     font-family: "ClashDisplay";
-    font-size: 32px;
-    line-height: 44.8px;
-    padding: 7.9% 24.6% 0 7.9%;
-    margin: 0;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: rgba(42, 37, 75, 1);
+}
+
+.descript-text p {
+    font-family: "Satoshi";
+    font-size: 16px;
+    line-height: 21.6px;
+    color: rgba(80, 89, 119, 1);
 }
 
 .descript-text a {
@@ -334,20 +337,12 @@ h1, h2, h3, h4, p, a {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    background-color: rgba(249, 249, 249, 0.15);
+    background-color: rgba(249, 249, 249, 1);
     padding: 16px 32px;
-    margin: 41px 0 0 7.9%;
 }
 
 .descript-text a:hover {
-    background-color: rgba(249, 249, 249, 0.3);
-}
-
-.descript-text p {
-    font-family: "Satoshi";
-    font-size: 18px;
-    line-height: 27px;
-    margin: 196px 12.9% 7.9% 7.9%;
+    opacity: 0.6;
 }
 
 .description img {
