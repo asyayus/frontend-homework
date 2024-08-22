@@ -315,6 +315,7 @@ h1, h2, h3, h4, p, a {
 
 .descript-text {
     grid-column: 1 / 2;
+    padding: 72px 13.89% 54px 11.67%;
 }
 
 .descript-text h3 {
@@ -322,6 +323,8 @@ h1, h2, h3, h4, p, a {
     font-size: 24px;
     line-height: 33.6px;
     color: rgba(42, 37, 75, 1);
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 .descript-text p {
@@ -329,6 +332,7 @@ h1, h2, h3, h4, p, a {
     font-size: 16px;
     line-height: 21.6px;
     color: rgba(80, 89, 119, 1);
+    margin: 0;
 }
 
 .descript-text a {
@@ -338,7 +342,9 @@ h1, h2, h3, h4, p, a {
     line-height: 24px;
     text-decoration: none;
     background-color: rgba(249, 249, 249, 1);
+    color: rgba(42, 37, 75, 1);
     padding: 16px 32px;
+    margin-top: 196px;
 }
 
 .descript-text a:hover {
