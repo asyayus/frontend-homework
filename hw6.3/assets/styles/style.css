@@ -8,7 +8,7 @@
     src: url(../fonts/ClashDisplay-Regular.otf);
 }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, h5, p, a, input {
     font-weight: 400;
 }
 /* The header */
@@ -276,16 +276,24 @@ h1, h2, h3, h4, p, a {
     margin: 16px 0 72px 0;
 }
 
+form {
+    font-size: 0
+}
+
+input {
+    font-size: 16px;
+}
+
 .sign-up input {
     margin-bottom: 54px;
 }
 
 .sign-up input[type=text] {
-    width: 354px;
+    width: 322px;
     height: 56px;
     background-color: rgba(249, 249, 249, 1);
     border: 0;
-    padding: 0 32px;
+    padding: 0 0 0 32px;
     font-family: "Satoshi";
 }
 
@@ -301,6 +309,7 @@ h1, h2, h3, h4, p, a {
     border: 0;
     font-family: "Satoshi";
 }
+
 .sign-up input[type=submit]:hover {
     opacity: 0.8;
 }
@@ -359,27 +368,55 @@ h1, h2, h3, h4, p, a {
 
 footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 45vw repeat(2, 1fr);
     grid-template-rows: 312px 68px;
     background-color: rgba(42, 37, 75, 1);
+    padding: 58px 5.7% 0;
 }
 
-.footer-menu {
+.footer-nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-nav h5 {
+    margin: 0;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin: 12px 0;
+}
+
+.footer-nav a {
+    font-family: "Satoshi";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 
 .mailing-list {
     grid-column: 2 / 4;
 }
 
+.footer-nav h5, .mailing-list p {
+    font-family: "ClashDisplay";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
 .mailing-list input[type=text] {
-    width: 509px;
+    width: 477px;
     height: 56px;
     font-family: "Satoshi";
     background-color: rgba(255, 255, 255, 0.15);
     border: 0;
-    padding: 0 32px;
+    padding: 0 0 0 32px;
 }
 
 .mailing-list input[type=text]::placeholder {
