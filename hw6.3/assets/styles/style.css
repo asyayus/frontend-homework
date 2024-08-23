@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, p, a, input {
     padding-right: 16px;
 }
 
-.divider {
+header hr {
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0 1.875%;
 }
@@ -368,13 +368,14 @@ input {
 
 footer {
     display: grid;
-    grid-template-columns: 45vw repeat(2, 1fr);
-    grid-template-rows: 312px 68px;
+    grid-template-columns: 45vw 1fr;
+    grid-template-rows: 254px auto 68px;
     background-color: rgba(42, 37, 75, 1);
     padding: 58px 5.7% 0;
 }
 
 .footer-nav {
+    grid-column: 1 / 2;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -401,7 +402,7 @@ footer {
 }
 
 .mailing-list {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
 }
 
 .footer-nav h5, .mailing-list p {
@@ -434,3 +435,24 @@ footer {
 .mailing-list input[type=submit]:hover {
     opacity: 0.8;
 }
+
+.bottom {
+    grid-column: 1 / 3;
+}
+
+.bottom hr {
+    border: 1px solid rgba(78, 77, 147, 1);
+    margin: 0;
+}
+
+.bottom p {
+    grid-column: 1 / 2;
+    font-family: "Satoshi";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.social-links {
+    grid-column: 2 / 3;
+}
+
