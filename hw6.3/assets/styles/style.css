@@ -361,10 +361,39 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 312px 68px;
+    background-color: rgba(42, 37, 75, 1);
 }
 
 .footer-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+}
+
+.mailing-list {
+    grid-column: 2 / 4;
+}
+
+.mailing-list input[type=text] {
+    width: 509px;
+    height: 56px;
+    font-family: "Satoshi";
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0;
+    padding: 0 32px;
+}
+
+.mailing-list input[type=text]::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.mailing-list input[type=submit] {
+    width: 118px;
+    height: 56px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(42, 37, 75, 1);
+    border: 0;
+    font-family: "Satoshi";
+}
+.mailing-list input[type=submit]:hover {
+    opacity: 0.8;
 }
