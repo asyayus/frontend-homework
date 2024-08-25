@@ -33,11 +33,6 @@ h1, h2, h3, h4, h5, p, a, input {
     width: 16px;
 }
 
-/* .top-header input {
-    border: none;
-    outline: none;
-} */
-
 .top-header h1 {
     grid-column: 2 / 3;
     margin: 20px;
